@@ -4,13 +4,153 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="097e4555-312f-44e5-936f-97eaf05715bb" name="Changes" comment="10_01_2025" />
+    <list default="true" id="097e4555-312f-44e5-936f-97eaf05715bb" name="Changes" comment="anasayfa duzenlendi, submenu verileri cekildi ,footer güncellendi.">
+      <change afterPath="$PROJECT_DIR$/client/src/components/mobil-uygulama/banner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/mobil-uygulama/comments.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/mobil-uygulama/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/mobil-uygulama/mobil-uygulama-area.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/mobil-uygulama/portfolio.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/mobil-uygulama.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/assets/scss/components/_section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/assets/scss/components/_section-title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/common/about-area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/common/about-area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/common/card-area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/common/card-area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/common/sales-area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/common/sales-area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/anasayfa/feature-area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/anasayfa/feature-area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/anasayfa/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/anasayfa/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/blog-list/tags.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/blog-list/tags.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ronesis/ronesis-area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ronesis/ronesis-area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/uye-portali/uye-portali-area.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/uye-portali/uye-portali-area.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/footers/footer-5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/footers/footer-5.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/ronesis.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ronesis.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/1.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/1.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/3.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/3.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/4.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/4.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/server-development/0.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/server-development/0.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/server-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/server-development/index.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/server-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/server-development/index.pack.gz.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/server/middleware-build-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/server/pages-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/static/development/_buildManifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/trace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/lib/read.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/raw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/cookie/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/cookie/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/encodeurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/encodeurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/encodeurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/encodeurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/encodeurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/middleware/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/middleware/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/router/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/router/route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/lib/view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/express/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/finalhandler/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/finalhandler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/finalhandler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/finalhandler/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/finalhandler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/finalhandler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/merge-descriptors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/merge-descriptors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/merge-descriptors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/merge-descriptors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/merge-descriptors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/path-to-regexp/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/path-to-regexp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/path-to-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/dist/qs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/lib/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/test/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/qs/test/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/send/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/send/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/send/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/send/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/send/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/send/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/serve-static/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/serve-static/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/serve-static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/serve-static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/serve-static/package.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -25,6 +165,9 @@
     "accountId": "1e5cd6b5-a4b0-469b-809b-e09e37d9e70f"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -37,8 +180,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/betulsahin/WebstormProjects/rns_website/client",
+    "git-widget-placeholder": "10__01__2025__betul__develop",
+    "last_opened_file_path": "/Users/betulsahin/WebstormProjects/rns_website/client/src/components/mobil-uygulama",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,7 +190,7 @@
     "npm.client > build.executor": "Run",
     "npm.client > start.executor": "Run",
     "settings.editor.selected.configurable": "vcs.Git",
-    "ts.external.directory.path": "/Users/betulsahin/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/betulsahin/WebstormProjects/rns_website/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -58,6 +201,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components/mobil-uygulama" />
       <recent name="$PROJECT_DIR$/client" />
     </key>
   </component>
@@ -104,7 +248,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736492164914</updated>
-      <workItem from="1736492166353" duration="12563000" />
+      <workItem from="1736492166353" duration="27498000" />
     </task>
     <task id="LOCAL-00001" summary="10_01_2025">
       <option name="closed" value="true" />
@@ -120,8 +264,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="19308d7b-fc2b-4d84-a30f-b1f292f71eb5" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="19308d7b-fc2b-4d84-a30f-b1f292f71eb5">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10_01_2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="10_01_2025" />
+    <MESSAGE value="anasayfa duzenlendi, submenu verileri cekildi ,footer güncellendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="anasayfa duzenlendi, submenu verileri cekildi ,footer güncellendi." />
   </component>
 </project>

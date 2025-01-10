@@ -9,6 +9,8 @@ import PriceArea from "./price-area";
 import ProjectArea from "./project-area";
 import RankArea from "./rank-area";
 import ServicesArea from "./services-area";
+import SalesArea from "../../common/sales-area";
+import CardArea from "@/common/card-area";
 import TestimonialArea from "./testimonial-area";
 
 const Anasayfa = () => {
@@ -21,10 +23,13 @@ const Anasayfa = () => {
       <HeroSlider />
       <FeatureArea />
       <AboutArea />
-      <ServicesArea />
-      <ProjectArea />
+      {/*<ServicesArea />*/}
+          <RankArea />
+
+          <ProjectArea />
       {/*<TestimonialArea />*/}
-      <RankArea />
+      <SalesArea />
+      <CardArea/>
       {/*<PriceArea />*/}
       </main> 
       <Footer />

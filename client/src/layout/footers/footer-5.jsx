@@ -23,7 +23,6 @@ const footer_content = {
 const FooterFive = ({style_contact, bg_style=true, style_team}) => {
     const { loading, error, data } = useQuery(GET_ALL_HEADERS_WITH_ORDER);
 
-    // Process the data for both Rönesis PRO and Member Portal sections
     const getProcessedHeaders = (parentId) => {
         if (!data?.getAllHeadersWithOrder) return [];
         return [...data.getAllHeadersWithOrder]
@@ -42,7 +41,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
             cls_2: "footer-col-3-2",
             title: "Rönesis PRO",
             delay: ".7s",
-            links: getProcessedHeaders(10)
+            links: getProcessedHeaders(12)
         },
         {
             id: 2,
@@ -50,7 +49,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
             cls_2: "footer-col-3-3",
             title: "Üye Portalı",
             delay: ".9s",
-            links: getProcessedHeaders(11)
+            links: getProcessedHeaders(13)
         }
     ];
 

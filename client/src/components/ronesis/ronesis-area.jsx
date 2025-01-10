@@ -24,7 +24,7 @@ const RonesisArea = () => {
     if (error) return <div>Error: {error.message}</div>;
 
     const sortedServices = [...(data?.getAllHeadersWithOrder || [])]
-        .filter(header => header.parent_id === 10)
+        .filter(header => header.parent_id === 12)
         .sort((a, b) => (a.order_index || 0) - (b.order_index || 0));
 
     return (

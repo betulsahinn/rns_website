@@ -5,7 +5,8 @@ node_modules
 */node_modules
 
 # Next.js
-.next
+.next/
+*.pack.gz
 **/.next
 /.next
 */.next

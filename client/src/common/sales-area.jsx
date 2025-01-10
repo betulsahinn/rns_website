@@ -2,30 +2,29 @@ import React from 'react';
 import Image from 'next/image';
 
 
-import sales_img_1 from "../../public/assets/img/card/sale-1.png"
-import sales_img_2 from "../../public/assets/img/card/sale-2.png"
-import sales_img_3 from "../../public/assets/img/card/sale-3.png"
+import sales_img_1 from "../../public/assets/img/card/this.png"
+
 
 const sales_content = {
-    title: <>Track and <span>Analyze Sales</span> in Real time</>,
+    title: <>Mobil Uygulamamız <span>Apple</span> ve <span>Android</span> Destekli !</>,
     dub_title: <>Track and Analyze Sales in Real time</>,
-    description: <>Centralize and simplify payments, and get comprehensive <br /> insights on your financials softuch.!</>,
+    description: <>Mobil uygulama ile üyelerle iltişiminizi güçlendirin.<br />Üyelerinizi ayrıcalıklı hissettirin.</>,
 
     sales_feature: [
         {
             id: 1,
             color: "yellow-1",
-            list: "No hidden fees."
+            list: "Anlık Bildiri ve Duyuru Yayınlayın"
         },
         {
             id: 2,
             color: "purple-2",
-            list: "100% security. Guaranteed."
+            list: "Üye Taleplerini ve Başvurularını Alın"
         },
         {
             id: 3,
             color: "green-3",
-            list: "No training or maintenance needed"
+            list: "Aktivitelerinizni ve Haberlerinizi Ulaştırın"
         },
     ],
 
@@ -34,17 +33,7 @@ const sales_content = {
             id: 1,
             cls: "main-thumb",
             img: sales_img_1,
-        },
-        {
-            id: 2,
-            cls: "sub-img-1",
-            img: sales_img_2,
-        },
-        {
-            id: 3,
-            cls: "sub-img-2 d-none d-sm-block",
-            img: sales_img_3,
-        },
+        }
     ],
 
 
@@ -74,7 +63,7 @@ const SalesArea = ({style_service}) => {
                         <div className="tp-sales-img-wrapper p-relative text-end">
                             {sales_img.map((item, i ) => 
                                 <div key={i} className={`tp-sales-${item.cls}`}>
-                                    <Image src={item.img} alt="theme-pure" />
+                                    <Image src={item.img}/>
                                 </div>
                              )} 
 
