@@ -8,7 +8,7 @@ const Tags = () => {
 
   // Ronesis alt başlıklarını al (parent_id = 10)
   const ronesisSubHeaders = data?.getAllHeadersWithOrder?.filter(
-      header => header.parent_id === 10 || header.parent_id === "10"
+      header => header.parent_id === 12 || header.parent_id === "12"
   ) || [];
 
 

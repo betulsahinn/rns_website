@@ -40,7 +40,6 @@ const about_data =[
 
 // about content
 const about_content = {
-    title: "150K+ ÜZERİNDE KULLANICI",
     sub_title: "SENDİKA YÖNETİM SİSTEMİ",
     des: <>Online Kalın - Kolayca Kullanın - Zaman Kazanın</>,
 
@@ -52,7 +51,7 @@ const about_content = {
     btn_text: "Hakkımızda",
 
 }
-const {title, sub_title, des, about_list, btn_text}  = about_content
+const {sub_title, des, about_list, btn_text}  = about_content
 
 
 const AboutArea = () => {
@@ -73,7 +72,6 @@ const AboutArea = () => {
                      <div className="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".6s">
                         <div className="tp-about__right">
                            <div className="tp-about__section-box">
-                              <h4 className="tp-section-subtitle">{title}</h4>
                               <h3 className="tp-section-title mb-15">{sub_title}</h3>
                               <p>{des}</p>
                            </div>

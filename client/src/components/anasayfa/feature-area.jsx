@@ -39,14 +39,15 @@ const feature_data = [
    },
 ]
 
+/*
 // feature content
 const feature_content = {
-   title: "Sendikalar İçin\n" +
-       "İşleyişe Uygun Tasarlanmış\n" +
+   title: "Sendikalar İçin İşleyişe Uygun Tasarlanmış\n" +
        "Bulut Tabanlı Yönetim Sistemleri",
    sub_title: "Rönesis PRO",
 }
 const { title, sub_title } = feature_content
+*/
 
 const FeatureArea = () => {
    let titleRef = useRef(null)
@@ -59,7 +60,7 @@ const FeatureArea = () => {
                <Image style={{width: "auto", height: "auto"}} src={feature_bottom_shape} alt="them-pure" />
             </div>
             <div className="container">
-
+{/*
                <div className="row justify-content-center">
                   <div className="col-xl-6 wow tpfadeUpp" data-wow-duration=".9s" data-wow-delay=".2s">
                      <div ref={titleRef} className="tp-feature__section-box tp__title_anime text-center mb-55 tp-title-anim">
@@ -67,7 +68,7 @@ const FeatureArea = () => {
                         <p>{sub_title}</p>
                      </div>
                   </div>
-               </div>
+               </div>*/}
 
                {/*<div className="row">
                   {feature_data.map((item, i) =>
