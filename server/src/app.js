@@ -75,7 +75,6 @@ async function startApolloServer() {
 
     await server.start();
 
-    // Apollo Server middleware'ini uygula
     app.use(
         '/graphql',
         cors(corsOptions),
@@ -83,6 +82,7 @@ async function startApolloServer() {
         expressMiddleware(server, {
             context: createContext
         })
+
     );
 
     const PORT = process.env.PORT || 4000;
