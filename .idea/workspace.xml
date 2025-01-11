@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="097e4555-312f-44e5-936f-97eaf05715bb" name="Changes" comment="">
+    <list default="true" id="097e4555-312f-44e5-936f-97eaf05715bb" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/4.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/4.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/cache/webpack/client-development/index.pack.gz.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.env.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/server/interception-route-rewrite-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/server/interception-route-rewrite-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/server/middleware-build-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/server/middleware-react-loadable-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/server/middleware-react-loadable-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/server/next-font-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/server/next-font-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/panel/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/panel/.next/trace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +73,7 @@
     "nodejs_package_manager_path": "npm",
     "npm.client > build.executor": "Run",
     "npm.client > start.executor": "Run",
+    "npm.panel > build.executor": "Run",
     "settings.editor.selected.configurable": "vcs.Git",
     "ts.external.directory.path": "/Users/betulsahin/WebstormProjects/rns_website/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -83,7 +90,7 @@
       <recent name="$PROJECT_DIR$/client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.client &gt; build">
+  <component name="RunManager" selected="npm.panel &gt; build">
     <configuration name="client &gt; build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -104,8 +111,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="panel &gt; build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/panel/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.panel &gt; build" />
         <item itemvalue="npm.client &gt; start" />
         <item itemvalue="npm.client &gt; build" />
         <item itemvalue="npm.client &gt; build" />
@@ -129,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736492164914</updated>
       <workItem from="1736492166353" duration="27498000" />
+      <workItem from="1736579374717" duration="7377000" />
     </task>
     <task id="LOCAL-00001" summary="10_01_2025">
       <option name="closed" value="true" />
@@ -138,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736508044408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <option name="closed" value="true" />
+      <created>1736584899157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736584899157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix">
+      <option name="closed" value="true" />
+      <created>1736585276976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736585276976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10_01_2025" />
     <MESSAGE value="anasayfa duzenlendi, submenu verileri cekildi ,footer güncellendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="anasayfa duzenlendi, submenu verileri cekildi ,footer güncellendi." />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
