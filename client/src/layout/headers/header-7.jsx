@@ -57,7 +57,7 @@ const HeaderSeven = () => {
                         <div className="row g-0 align-items-center">
                             <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                                 <div className="header-bottom__logo">
-                                    <Link href="/anasayfa"><Image src={logo_white} alt="" /></Link>
+                                    <Link href="/client/src/pages/anasayfa"><Image src={logo_white} alt="" /></Link>
                                 </div>
                             </div>
                             <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">

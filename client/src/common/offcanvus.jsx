@@ -19,7 +19,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <button className="close-btn" onClick={() => setSidebarOpen(false)}><i className="fal fa-times"></i></button>
                     </div>
                     <div className="tpoffcanvas__logo text-center">
-                    <Link href="/anasayfa" onClick={() => setSidebarOpen(false)}>
+                    <Link href="/client/src/pages/anasayfa" onClick={() => setSidebarOpen(false)}>
                         <Image src={logo} alt="theme-pure" />
                     </Link>
                     </div>

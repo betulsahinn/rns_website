@@ -37,7 +37,7 @@ const BreadcrumbTwo = ({ title, innertitle, team_details, career_details }) => {
                 </h3>
                 <div ref={subtitleRef} className="breadcrumb__list tp-title-anim tp__title_anime">
                   <span className="child-one">
-                    <Link href="/anasayfa">Anasayfa</Link>
+                    <Link href="/client/src/pages/anasayfa">Anasayfa</Link>
                   </span>
                   <span className="dvdr">
                     <i className="fal fa-angle-right"></i>

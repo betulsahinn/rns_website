@@ -5,9 +5,6 @@ import queries from '@/graphql/queries';
 import { AuthProvider } from '@/context/AuthContext';
 import { AppProvider } from '@/context/AppContext';
 
-if (typeof window !== "undefined") {
-    require("bootstrap/dist/js/bootstrap");
-}
 
 export default function App({ Component, pageProps }) {
     return (

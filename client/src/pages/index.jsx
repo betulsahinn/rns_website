@@ -1,15 +1,15 @@
 import React from "react";
 import SEO from "../common/seo";
-import HomeOne from "../components/homes/home";
+import Anasayfa from "../components/anasayfa";
 import Wrapper from "../layout/wrapper";
 
 const Home = () => {
-  return (
-    <Wrapper>
-      <SEO pageTitle={"Rönesis PRO Yönetim Sistemleri"} />
-      <HomeOne />
-    </Wrapper>
-  );
+    return (
+        <Wrapper>
+            <SEO pageTitle={"Rönesis PRO Yönetim Sistemleri"} />
+            <Anasayfa />
+        </Wrapper>
+    );
 };
 
 export default Home;
